@@ -5,7 +5,7 @@ The 0.6 version of the MVCR specification focuses on the requirements for the MV
 implementation of an MVCR.  As a result this version of the spec has been reduced with material from previous edits being added in according the stage and agreed roadmap of the MVCR in the CISWG. 
 
 # Introduction
-The MVCR comprises the core Consent Receipt specification and specifically refers to the notice's required for consent when sharing personal information.  This is currently managed with each organisations separately, by an individual and the MVCR address this problem.
+The MVCR comprises the core Consent Receipt (CR) specification and specifically refers to the notice's required for consent when sharing personal information.  This is currently managed with each organisations separately, by an individual and the MVCR address this problem.
 
 The MVCR is written with terms and reference in context of:  
 * ISO/IEC 29100	Information technology – Security techniques – Privacy framework
@@ -18,7 +18,7 @@ Supporting reference to ISTP analysis of privacy principles:
 # Problem Described 
 Currently there is a static and binary notice and consent infrastructure that is regulated and not usable or suitable to purpose of this regulation.  An individual is expected to perform beyond what is reasonable and possible in the current context. This is to read the policies, understand all of the information sharing relationships in context, manage individually each consent and personal information relationship with their associated identities all of these organisations.  Without having the ability to take a record and manage consent independently out of context.
 
-As information sharing is dramatically increasing, the capacity for people to manage information sharing and identity based relationships needs also to increased.  This can be address in specific reference of jurisdictional requirements and of ISO 29100 by creating a specification for the minimum core generically viable Consent requirements.  
+As information sharing is dramatically increasing, the capacity for people to manage information sharing and identity based relationships needs also to increased.  This can be address in specific reference of jurisdictional requirements and of ISO 29100 by creating a specification for the minimum core generically viable consent requirements.  
 
 The capacity is then in increased as people are able to manage consent and information sharing relationships on aggregate with the consent receipt.  Organisations can then use these receipts to stream line the consent experience.  As well as enabling a channel for the organisations ability to advertise trust. 
 
