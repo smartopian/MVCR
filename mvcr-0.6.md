@@ -15,21 +15,21 @@ Supporting reference to ISTP analysis of privacy principles:
 * ISTPA, (2007) Analysis of Privacy Principals, pg. 64, [Online] http://www.istpa.org/ [Accessed Nov, 4 2010]
 
 # Problem Described 
-Currently there is a static and binary notice and consent infrastructure that is regulated and neither usable nor suitable for it intended purposes.  An individual is expected to perform beyond what is reasonable in the current context. They are expected to find and read policies, understand all of the information sharing relationships in context, manage each consent and personal information relationship with their associated identities with all of these organisations. In other words, each individual is expected to understand what information is being collected about them, how it will be used and for what purposes, with which types of entities their information will be shared. All of this is expected without having the ability to take a record and manage their consents independently out of context.
+Currently there is a static and binary notice and consent infrastructure that is regulated and neither usable nor suitable for it intended purposes.  An individual is expected to perform beyond what is reasonable in the current context. They are expected to find and read policies, understand all of the information sharing relationships in context, manage each consent and personal information relationship with their associated identities with all of these organisations. In other words, each individual is expected to understand what information is being collected about them, how it will be used and for what purposes, with which types of entities their information will be shared. All of this is expected without having the ability to take a record and manage consent independently out of context.  Meanwhile in context people are expected to keep track of all active consent, when making new consent agreements. 
 
-As information sharing is dramatically increasing, the capacity for people to manage information sharing and identity based relationships needs also to increase.  A specification for a minimum core generically viable consent can address specific jurisdictional requirements and provided evidence toward compliance withISO 29100.  
+As information sharing is dramatically increasing, the capacity for people to manage information sharing and identity based relationships needs also to increase.  A specification for a minimum core generically viable consent can address specific jurisdictional requirements and provided evidence toward compliance with ISO 29100.  
 
 Individuals' capacities to manage their privacy is then increased as they are able to aggregate and manage consent & information sharing relationships with the consent receipt.  Organisations can use these receipts to streamline the consent experience.  Consent receipts also provide a channel for  organisations to advertise trust. 
 
-With the core receipt specification addressing general, or regulatory, consent requirements the consent receipt can become a vehicle for trust marks, privacy icons, assurances, certifications and self asserted community and industry reputations.  (which is out of scope of the MVCR specification)
+With the core receipt specification addressing general, or regulatory, consent requirements the consent receipt can become a vehicle for trust networks, federations, trust marks, privacy icons, assurances, certifications and self asserted community and industry reputations.  (which is out of scope of the MVCR specification)
 
 # Background
 
-Information sharing is a complex issue as organisations that require consent for the collection of personal information from individuals have specific legal obligations related to the context and the collection of those data.  These obligations require privacy policies and/or notices about how personal information may be collected, used, disclosed, retained and disposed of.  As each organisation posts their policies in different locations, and often change the content and URI of the policies, this is systematically unusable. Each organisation has their own best practices, policy structures and policy formats. This results in a closed (or 'siloed') type of transparency, very costly to manage for the individual and difficult to regulate.
+Information sharing is a complex issue as organisations that require consent for the collection of personal information from individuals have specific legal obligations related to the context and the collection of those data.  These obligations require privacy policies and/or notices about how personal information may be collected, used, disclosed, retained and disposed of.  As each organisation posts their policies in different locations, and often change the content and URI of the policies, this is systematically unusable. Each organisation has their own best practices, policy structures and policy formats. This results in a closed (or 'siloed') type of transparency, violating Openness principles, is very costly to manage for all stakeholders and very difficult to regulate effectively.
 
 # Executive Summary
 
-The Consent & Information Sharing Working Group (CISWG) is distilling a small common set of consent requirements for information sharing that are salient across jurisdictions with Fair Information Practices based privacy instruments and standards.(ISTPA footnote)  The aim is to use these for a common generic set of consent requirements and to specify the minimum required links, fields and data formats to meet the minimum obligations for information sharing.
+The Consent & Information Sharing Working Group (CISWG) is distilling a small common set of consent requirements for information sharing that are salient across jurisdictions with Fair Information Practices based privacy instruments and standards.(ISO and ITPA footnote)  The aim is to use these for a common generic set of consent requirements and to specify the minimum required links, fields and data formats to meet the minimum obligations for information sharing.
 
 # Objective
 
@@ -37,7 +37,7 @@ The Minimum Viable Consent Receipt (MVCR) specification will provide a generic s
 
 # Scope
 
-This v.06  MVCR specification further defines the requirements for a Minimum Viable Consent Receipt(MVCR). In this version the scope is limited to the context of when a user takes an action to that can be taken to mean consent for personal information collection. This consent can occur before, during or immediately after their personal information is collected.
+This v.06  MVCR specification further defines the requirements for a Minimum Viable Consent Receipt(MVCR). In this version the scope is limited to the context of when a user takes an action to consent to sharing information. An action that can be taken to mean consent for personal information collection. This consent can occur before, during or immediately after their personal information is collected.
 
 The receipt format is human and machine readable and may include icons. It will be accessible.
 
@@ -54,7 +54,7 @@ Organisations provide consent receipts when they obtain or assume consent and co
 3. Regulators - (privacy and data protection enforcement)
 Regulators i.e. the FTC in the USA, the Canadian Federal and Provincial Privacy Commissioners, the EU Data Protection Regulators. Regulators may provide public processes for administration and enforcement of regulation in regards to notice and consent requirements
 
-In summary, this MVCR receipt specifification addresses these three stakeholder requirements with the aim to provide a business infrastructure organizations will implement, that people can use, and that regulators can enforce.
+In summary, this MVCR receipt specifification addresses the requirements of these three stakeholder groups with the aim to provide a business infrastructure organizations will implement, that people can use and that regulators can enforce.
 
 
 ## Intellectual Property Rights
