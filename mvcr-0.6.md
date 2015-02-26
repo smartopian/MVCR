@@ -8,12 +8,12 @@ implementation of an MVCR.  As a result this version of the spec has been reduce
 The MVCR comprises the core Consent Receipt specification and specifically refers to the notice's required for consent when sharing personal information.  This is currently managed with each organisations separately, by an individual and the MVCR address this problem.
 
 The MVCR is written with terms and reference in context of:  
-ISO/IEC 29100	Information technology – Security techniques – Privacy framework
-ISO/IEC 29115	Information technology – Security techniques – Entity Authentication Assurance
-ISO/IEC 40500	Information technology -- W3C Web Content Accessibility Guidelines (WCAG) 2.0
+* ISO/IEC 29100	Information technology – Security techniques – Privacy framework
+* ISO/IEC 29115	Information technology – Security techniques – Entity Authentication Assurance
+* ISO/IEC 40500	Information technology -- W3C Web Content Accessibility Guidelines (WCAG) 2.0
 
 Supporting reference to ISTP analysis of privacy principles:
-ISTPA, (2007) Analysis of Privacy Principals, pg. 64, [Online] http://www.istpa.org/ [Accessed Nov, 4 2010]
+* ISTPA, (2007) Analysis of Privacy Principals, pg. 64, [Online] http://www.istpa.org/ [Accessed Nov, 4 2010]
 
 # Problem Described 
 Currently there is a static and binary notice and consent infrastructure that is regulated and not usable or suitable to purpose of this regulation.  An individual is expected to perform beyond what is reasonable and possible in the current context. This is to read the policies, understand all of the information sharing relationships in context, manage individually each consent and personal information relationship with their associated identities all of these organisations.  Without having the ability to take a record and manage consent independently out of context.
