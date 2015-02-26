@@ -4,7 +4,7 @@
 The 0.6 version of the MVCR specification focuses on the requirements for the MVCR spec. Future versions of this specification will add additional material to allow for the technical
 implementation of an MVCR.  As a result this version of the spec has been reduced with material from previous edits being added in according the stage and agreed roadmap of the MVCR in the CISWG. 
 
-# Introduction
+# Introduction & References
 The MVCR comprises the core Consent Receipt (CR) specification and specifically refers to the notice's required for consent when sharing personal information.  This is currently managed with each organisations separately, by an individual and the MVCR address this problem.
 
 The MVCR is written with terms and reference in context of:  
@@ -106,7 +106,7 @@ Receipts need to make consent in informations sharing systamtically usable and a
 
 Be usable as a consent token to enable transparent digital audit trails of consent for   information sharing relationships.
 
-## MVCR Fields
+## MVCR Core Fields
 The fields consists of:
 
  * Contact information of Data Controller
@@ -135,7 +135,7 @@ update broken links and the consent before receipt can be used as a token?)
    * Context Scope and Requirements
 
 
-## MVCR - Default Settings
+## MVCR - Default Settings & Design
 
 Default settings in the MVCR which are
 represented by the Yes/No  flag settings -  (No) 3rd party sharing, (No)
@@ -170,7 +170,7 @@ covered in the MVCR but should be referenced in reference the MVCR default setti
 | Sensitive Personally Identifiable Information (SPII) | this a flag in the consent receipt that is used for what is legally defined as sensitive and protected data, this varies from jurisdiction to jurisdiction. For this type of data explicit consent is required and a consent receipt extension is needed for this functionality. | include health, financial, children’s data,  sexual data, political/religious data, surveillance data,  (note I think this should include participate in identifying SPII |  |
 
 
-# Appendix B: Flags Defined
+# Appendix A: Flags Defined
 
 ### 3rd  Party sharing (TBD)
 
