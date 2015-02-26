@@ -62,7 +62,7 @@ This document is being developed by Kantara Initiative's Consent and Information
 
 Kantara Initiative is a non-profit membership organization that connects businesses, consumers, governments, and citizens through innovations and programs that support more natively trust worthy on-line experiences. The mission of KI is to foster identity community harmonization, interoperability, innovation, and broad adoption through the development criteria for operational trust frameworks and deployment/usage best practices for privacy-respecting, secure access to trusted online services.
 
-## MVCR Requirements
+## MVCR Requirements (TBF v.06)
 
 1. The receipt MUST have a property to authenticate the origin.
 2. The receipt MUST have an integrity protection property.
@@ -80,22 +80,21 @@ Receipts need to make consent in informations sharing systamtically usable and a
 
 Be usable as a consent token to enable transparent digital audit trails of consent for information sharing relationships.
 
-## MVCR Core Fields
+## MVCR Core Fields (TBF v.07)
 The fields consists of:
 * Contact information of Data Controller
 * Identity provided by the individual
 * Link to privacy policy
- (note: static link format required - raised by John W) (Comment: Note: For
+Comments:
+JW: note: static link format required - raised by John W) (Comment: Note: For
 the consent receipt to be audit-able and verifiable the consent policy should
 be accessible by any entity with the URI for the policy. Subsequent changes to
 the policy should not invalidate the URI for the policy in effect with the CR
 was issued.)
+ML: Should we consider stipulating that the uri be domain.com/privacy by default for MVCR with no payload. 
+JW: If the URI is not broken, but the policy has changed, how can this be known or addressed by the user?
+ML: If the privacy policy is apart of the payload of the receipt and this payload was signed by the policy provider. Or if the policy is registered and kept public by the registrar e.g. TOSBACK)
 
- (Discussion Point : Rationale: If invalidated (URI Is broken), is the consent
-still compliant?  If the policies (materially) change is a process needed to
-update broken links and the consent before receipt can be used as a token?)
-
- JW: If the URI is not broken, but the policy has changed, how can this be known or addressed by the user?
 
  * The purpose(s) listed: itemised on receipt
 
@@ -104,22 +103,21 @@ update broken links and the consent before receipt can be used as a token?)
    * Sensitive Personal Data Collection
    * Context Scope and Requirements
 
-## MVCR - Default Settings & Design
+## MVCR - Default Settings & Design (TBF V.06)
 
 Default settings in the MVCR which are represented by the Yes/No  flag settings:
 	(No) 3rd party sharing, 
 	(No) collection of sensitive personal data, and 
 	an optional checklist for self-asserting that the consent harvested is, fair, reasonable and conforms to the law where it is issued.
 
-Compliant by default represents the express (or highly automated) version of consent, and is used to match the current 'click ware' consent system that is common today. It is this version that is based on compliance requirements. Compliance requirements are based ultimately on a number of sources, legal regulation,  3rd party contracts, previous legal judgment, case and statute
-law and best practices.  These all become relevant beyond the minimum viable CR default self assertions.
+Compliant by default represents the express (or highly automated) version of consent, and is used to match the current 'click ware' consent system that is common today with profiles that are access controlled by the data subject.  Compliance requirements are based ultimately on a number of sources, which are required depending on the context of the consent and the data shared.   This include:  legal regulation,  3rd party contracts, previous legal judgment, case and statute law and best practices.  These all become relevant beyond the minimum viable CR default self assertions.
 
 The consent receipt and default settings are based on ISTPA work with reference: (http://xml.coverpages.org/ISTPA-AnalysisOfPrivacyPrinciplesV2.pdf)
 
-Note: (TBD) In each jurisdiction their are exceptions to consent which are not
+Note: (TBD V.07) In each jurisdiction their are exceptions to consent which are not
 covered in the MVCR but should be referenced in reference the MVCR default settings.
 
-### Consent Notice Fields and Descriptions (TBF)
+### Consent Notice Fields and Descriptions (TBF v.07)
 
 | Term | Definition | Example |
 | ---- | ---- | ---- |
@@ -133,11 +131,11 @@ covered in the MVCR but should be referenced in reference the MVCR default setti
 | Sensitive Personally Identifiable Information (SPII) | this a flag in the consent receipt that is used for what is legally defined as sensitive and protected data, this varies from jurisdiction to jurisdiction. For this type of data explicit consent is required and a consent receipt extension is needed for this functionality. | include health, financial, children’s data,  sexual data, political/religious data, surveillance data,  (note I think this should include participate in identifying SPII |  |
 
 
-# Appendix A: Flags Defined
+# Appendix A: Flags Defined (TBF v.07)
 
-### 3rd  Party sharing (TBD)
+### 3rd  Party sharing 
 
-### Sensitive Personal Data (TBD)
+### Sensitive Personal Data 
 
 ### Operational Context (OC): Consent Context Scope & Requirements
 
