@@ -5,7 +5,7 @@ The 0.6 version of the MVCR specification focuses on the requirements for the MV
 implementation of an MVCR.  As a result this version of the spec has been reduced with material from previous edits being added in according the stage and agreed roadmap of the MVCR in the CISWG. 
 
 # Introduction & References
-The MVCR comprises the core Consent Receipt (CR) specification and specifically refers to the notice's required for consent when sharing personal information.  This is currently managed with each organisations separately, by an individual and the MVCR address this problem.
+The MVCR comprises the core Consent Receipt (CR) specification and specifically refers to the notice's required for consent when sharing personal information.  This is currently managed with each organisations separately, with bespoke policies that are closed to systematic use by an individual.  The MVCR addresses this problem.
 
 The MVCR is written with terms and reference in context of:  
 * ISO/IEC 29100	Information technology – Security techniques – Privacy framework
