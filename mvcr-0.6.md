@@ -11,7 +11,7 @@ The MVCR is written with terms and reference in context of:
 * ISO/IEC 29115	Information technology – Security techniques – Entity Authentication Assurance
 * ISO/IEC 40500	Information technology -- W3C Web Content Accessibility Guidelines (WCAG) 2.0
 
-Supporting reference to ISTP analysis of privacy principles:
+Supporting reference to ISTPA: Analysis of privacy principles:
 * ISTPA, (2007) Analysis of Privacy Principals, pg. 64, [Online] http://www.istpa.org/ [Accessed Nov, 4 2010]
 
 # Problem Described 
