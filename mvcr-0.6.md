@@ -47,7 +47,7 @@ The receipt format is machine readable and iconically usable.
 
 # Stakeholders
 
-There are three general stakeholder groups:
+There are three general stakeholder audiences for the MVCR which are referenced through this material :
 
 1. People
 People receive the consent receipt and use this to track and make transparent consent and data control conditions.
