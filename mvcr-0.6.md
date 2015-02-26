@@ -49,14 +49,14 @@ The receipt format is machine readable and iconically usable.
 
 There are three general stakeholder groups:
 1. People
-- People receive the consent receipt and use this to track and make transparent consent and data control conditions.
+* People receive the consent receipt and use this to track and make transparent consent and data control conditions.
 
 2. Organisations - (profitability)
-- Organisation provide consent receipts when they harvest consent and collect personal information. The more complex the information sharing requirements i.e. the frequency of policy changes, the sensitivity of data collected and its context, the number of third parties.
+* Organisation provide consent receipts when they harvest consent and collect personal information. The more complex the information sharing requirements i.e. the frequency of policy changes, the sensitivity of data collected and its context, the number of third parties.
 
 3. Regulators - (privacy and data protection enforcement)
-- Regulators i.e. the FTC in the USA, the Canadian Federal and Provincial Privacy Commissioners, the EU Data Protection Regulators, 
-- Regulators provide public process for administration and enforcement of regulation in regards to notice and consent requirements
+* Regulators i.e. the FTC in the USA, the Canadian Federal and Provincial Privacy Commissioners, the EU Data Protection Regulators. 
+* Regulators provide public process for administration and enforcement of regulation in regards to notice and consent requirements
 
 In summary, MVCR receipt is comprised of these three stakeholder requirements with the aim to provide business infrastructure that people use and regulators can enforce.
 
