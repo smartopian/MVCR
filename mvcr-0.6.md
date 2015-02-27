@@ -150,4 +150,4 @@ reasonable consent harvesting.
 
 Operational Context - Defined by either jurisdictionally specific requirements
 or use case specific requirements. The OC also is a space/scope for company
-side assertions (e.g. customer service, quality, etc.
+side assertions (e.g. customer service, quality, etc.)
