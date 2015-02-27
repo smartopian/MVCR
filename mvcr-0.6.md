@@ -1,7 +1,7 @@
 # MVCR-Specification-restructure
 ## Minimum Viable Consent Receipt  Specification
 
-The 0.6 version of the MVCR specification focuses on the requirements for the MVCR spec. Future versions of this specification will add additional material to allow for the technical implementation of an MVCR.  As a result this version of the spec has been reduced with material from previous edits being added in according the stage and agreed roadmap of the MVCR in the CISWG. 
+The 0.6 version of the MVCR specification focuses on the requirements for the MVCR specification. Future versions of this specification will add additional material to allow for the technical implementation of an MVCR.  As a result this version of the specification has been reduced with material from previous edits being added in according the stage and agreed roadmap of the MVCR in the CISWG. 
 
 # Introduction & References
 The MVCR comprises the core Consent Receipt (CR) specification and specifically refers to the notices required for consent to be valid when collecting personal information.  This is currently managed by each organisations separately, with bespoke policies that are closed to systematic use by an individual.  The MVCR addresses this problem.
