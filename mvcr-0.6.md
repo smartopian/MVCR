@@ -1,31 +1,31 @@
-# MVCR-Specification-restructure
-## Minimum Viable Consent Receipt  Specification
+# MVCR-Specification-Restructure
+## Minimum Viable Consent Receipt Specification
 
-The 0.6 version of the MVCR specification focuses on the requirements for the MVCR specification. Future versions of this specification will add additional material to allow for the technical implementation of an MVCR.  As a result this version of the specification has been reduced with material from previous edits being added in according the stage and agreed roadmap of the MVCR in the CISWG. 
+The 0.6 version of the MVCR specification focuses on the requirements for the MVCR specification. Future versions of this specification will add additional material to allow for the technical implementation of an MVCR.  As a result this version of the specification has been reduced with material from previous edits being added in according the stage and agreed roadmap of the MVCR in the CISWG.
 
 # Introduction & References
 The MVCR comprises the core Consent Receipt (CR) specification and specifically refers to the notices required for consent to be valid when collecting personal information.  This is currently managed by each organisations separately, with bespoke policies that are closed to systematic use by an individual.  The MVCR addresses this problem.
 
-The MVCR is written with terms and reference in context of:  
+The MVCR is written with terms and reference in context of:
 * ISO/IEC 29100	Information technology – Security techniques – Privacy framework
 * ISO/IEC 29115	Information technology – Security techniques – Entity Authentication Assurance
-* ISO/IEC 40500	Information technology -- W3C Web Content Accessibility Guidelines (WCAG) 2.0
+
 
 Supporting reference to ISTPA: Analysis of privacy principles:
 * ISTPA, (2007) Analysis of Privacy Principals, pg. 64, [Online] http://www.istpa.org/ [Accessed Nov, 4 2010]
 
-# Problem Described 
-Currently there is a static and binary notice and consent infrastructure that is regulated and neither usable nor suitable for it intended purposes.  An individual is expected to perform beyond what is reasonable in the current context. They are expected to find and read policies, understand all of the information sharing relationships in context, manage each consent and personal information relationship with their associated identities with all of these organisations. In other words, each individual is expected to understand what information is being collected about them, how it will be used and for what purposes, with which types of entities their information will be shared. All of this is expected without having the ability to take a record and manage consent independently out of context.  Meanwhile in context people are expected to keep track of all active consent, when making new consent agreements. 
+# Problem Described
+Currently there is a static and binary notice and consent infrastructure that is regulated and neither usable nor suitable for it intended purposes.  An individual is expected to perform beyond what is reasonable in the current context. They are expected to find and read policies, understand all of the information sharing relationships in context, manage each consent and personal information relationship with their associated identities with all of these organisations. In other words, each individual is expected to understand what information is being collected about them, how it will be used and for what purposes, with which types of entities their information will be shared. All of this is expected without having the ability to take a record and manage consent independently out of context.  Meanwhile in context people are expected to keep track of all active consent, when making new consent agreements.
 
-As information sharing is dramatically increasing, the capacity for people to manage information sharing and identity based relationships needs also to increase.  A specification for a minimum core generically viable consent can address specific jurisdictional requirements and provided evidence toward compliance with ISO 29100.  
+As information sharing is dramatically increasing, the capacity for people to manage information sharing and identity based relationships needs also to increase.  A specification for a minimum core generically viable consent can address specific jurisdictional requirements and provided evidence toward compliance with ISO 29100.
 
-Individuals' capacities to manage their privacy is then increased as they are able to aggregate and manage consent & information sharing relationships with the consent receipt.  Organisations can use these receipts to streamline the consent experience.  Consent receipts also provide a channel for  organisations to advertise trust. 
+Individuals' capacities to manage their privacy is then increased as they are able to aggregate and manage consent & information sharing relationships with the consent receipt.  Organisations can use these receipts to streamline the consent experience.  Consent receipts also provide a channel for  organisations to advertise trust.
 
 With the core receipt specification addressing general, or regulatory, consent requirements the consent receipt can become a vehicle for trust networks, federations, trust marks, privacy icons, assurances, certifications and self asserted community and industry reputations.  (which is out of scope of the MVCR specification)
 
 # Background
 
-Information sharing is a complex issue as organisations that require consent for the collection of personal information from individuals have specific legal obligations related to the context and the collection of those data.  These obligations require privacy policies and/or notices about how personal information may be collected, used, disclosed, retained and disposed of.  As each organisation posts their policies in different locations, and often change the content and URI of the policies, this is systematically unusable. Each organisation has their own best practices, policy structures and policy formats. This results in a closed (or 'siloed') type of transparency, violating Openness principles, is very costly to manage for all stakeholders and very difficult to regulate effectively.
+Information sharing is a complex issue as organisations that require consent for the collection of personal information from individuals have specific legal obligations related to the context and the collection of those data.  These obligations require privacy policies and/or notices about how personal information may be collected, used, disclosed, retained and disposed of.  As each organisation posts their policies in different locations, and often change the content and URI of the policies, this is systematically unusable. Each organisation has their own best practices, policy structures and policy formats. This results in a closed (or 'siloed') type of transparency, that violates the  Openness (transparency and notice) privacy principles, is very costly to manage for all stakeholders and very difficult to regulate effectively.
 
 # Executive Summary
 
@@ -37,7 +37,7 @@ The Minimum Viable Consent Receipt (MVCR) specification will provide a generic s
 
 # Scope
 
-This v.06  MVCR specification further defines the requirements for a Minimum Viable Consent Receipt(MVCR). In this version the scope is limited to the context of when a user takes an action to consent to sharing information. An action that can be taken to mean consent for personal information collection. This consent can occur before, during or immediately after their personal information is collected.
+This v.06  MVCR specification further defines the requirements for a Minimum Viable Consent Receipt(MVCR). In this version the scope is limited to the context of when a user takes an action to consent to sharing information. This consent action can occur before, during or immediately after their personal information is collected.
 
 The receipt format is human and machine readable and may include icons. It will be accessible.
 
@@ -49,73 +49,43 @@ There are three general stakeholder audiences for the MVCR which are referenced 
 People receive the consent receipt and may use this to track consent and exert control over information about themselves.
 
 2. Organisations:
-Organisations provide consent receipts when they obtain or assume consent and collect personal information. 
+Organisations provide consent receipts when they obtain or assume consent and collect personal information.
 
 3. Regulators - (privacy and data protection enforcement)
 Regulators i.e. the FTC in the USA, the Canadian Federal and Provincial Privacy Commissioners, the EU Data Protection Regulators. Regulators may provide public processes for administration and enforcement of regulation in regards to notice and consent requirements
 
 In summary, this MVCR receipt specifification addresses the requirements of these three stakeholder groups with the aim to provide a business infrastructure organizations will implement, that people can use and that regulators can enforce.
 
-
 ## Intellectual Property Rights
 This document is being developed by Kantara Initiative's Consent and Information Sharing Working Group; see <https://kantarainitiative.org/groups/ciswg/>. Participation is free and open, and all work contributed to the effort falls into the Reciprocal Royalty Free with Opt-Out to Reasonable And Non discriminatory (RAND) IPR policy <https://kantarainitiative.org/confluence/x/mQByAg>.
 
 Kantara Initiative is a non-profit membership organization that connects businesses, consumers, governments, and citizens through innovations and programs that support more natively trust worthy on-line experiences. The mission of KI is to foster identity community harmonization, interoperability, innovation, and broad adoption through the development criteria for operational trust frameworks and deployment/usage best practices for privacy-respecting, secure access to trusted online services.
 
-## MVCR Requirements (TBF v.06)
+## Generic Requirements (TBF v.06)
+The word “SHOULD” indicates a recommendation and does not impose an obligation. The word "CAN" means that this is a common option. 
 
 1. The receipt MUST have a property to authenticate the origin.
 2. The receipt MUST have an integrity protection property.
-3. The audience SHOULD be restricted.
+3. The audience SHOULD be restricted and transparent.
 4. The receipt SHOULD be able to be transmitted over various transport protocols.
 5. The payload MUST have a human readable section, and SHOULD have a machine readable section.
 6. The payload MUST include the following properties:
-	a) Issuer
-	b) Date
-	c) [TBD]
+  a) Issuer
+  b) Date
+  c) Time
+  d) direct contact information to data controller
+  e) Contain a static Link to privacy policy
+  f) Purpose (s)
+  g) YES or NO Flags
+    * 3rd party data sharing
+    * Sensitive Personal Data Collection
+    * Context
 7. The payload SHOULD include the following properties:
-	a) [TBD]
+  a) A description of the types of personally identifiable information to which the consent applies.
+8. The payload CAN include the following information:
+  a) the personal identifier used in the consent receipt
+  b) a collection of PII that is apart of the consent transaction
 
-Receipts need to make consent in informations sharing systamtically usable and automate the discovery and hence usability of consent. Receipts need to contiain the information to enable the user to place the consent in context and understand the nature of their consent.
-
-Be usable as a consent token to enable transparent digital audit trails of consent for information sharing relationships.
-
-## MVCR Core Fields (TBF v.07)
-The fields consists of:
-* Contact information of Data Controller
-* Identity provided by the individual
-* Link to privacy policy
-Comments:
-JW: note: static link format required - raised by John W) (Comment: Note: For
-the consent receipt to be audit-able and verifiable the consent policy should
-be accessible by any entity with the URI for the policy. Subsequent changes to
-the policy should not invalidate the URI for the policy in effect with the CR
-was issued.)
-ML: Should we consider stipulating that the uri be domain.com/privacy by default for MVCR with no payload. 
-JW: If the URI is not broken, but the policy has changed, how can this be known or addressed by the user?
-ML: If the privacy policy is apart of the payload of the receipt and this payload was signed by the policy provider. Or if the policy is registered and kept public by the registrar e.g. TOSBACK)
-
-
- * The purpose(s) listed: itemised on receipt
-
- * YES or NO Flags
-   * 3rd party data sharing
-   * Sensitive Personal Data Collection
-   * Context Scope and Requirements
-
-## MVCR - Default Settings & Design (TBF V.06)
-
-Default settings in the MVCR which are represented by the Yes/No  flag settings:
-	(No) 3rd party sharing, 
-	(No) collection of sensitive personal data, and 
-	an optional checklist for self-asserting that the consent harvested is, fair, reasonable and conforms to the law where it is issued.
-
-Compliant by default represents the express (or highly automated) version of consent, and is used to match the current 'click ware' consent system that is common today with profiles that are access controlled by the data subject.  Compliance requirements are based ultimately on a number of sources, which are required depending on the context of the consent and the data shared.   This include:  legal regulation,  3rd party contracts, previous legal judgment, case and statute law and best practices.  These all become relevant beyond the minimum viable CR default self assertions.
-
-The consent receipt and default settings are based on ISTPA work with reference: (http://xml.coverpages.org/ISTPA-AnalysisOfPrivacyPrinciplesV2.pdf)
-
-Note: (TBD V.07) In each jurisdiction their are exceptions to consent which are not
-covered in the MVCR but should be referenced in reference the MVCR default settings.
 
 ### Consent Notice Fields and Descriptions (TBF v.07)
 
@@ -133,9 +103,9 @@ covered in the MVCR but should be referenced in reference the MVCR default setti
 
 # Appendix A: Flags Defined (TBF v.07)
 
-### 3rd  Party sharing 
+### 3rd  Party sharing
 
-### Sensitive Personal Data 
+### Sensitive Personal Data
 
 ### Operational Context (OC): Consent Context Scope & Requirements
 
@@ -148,6 +118,27 @@ If YES, there is a self-assertion that the receipt and company side
 consent management practices follow the legal requirements for fair and
 reasonable consent harvesting.
 
-Operational Context - Defined by either jurisdictionally specific requirements
-or use case specific requirements. The OC also is a space/scope for company
-side assertions (e.g. customer service, quality, etc.)
+Operational Context - Defined by either jurisdictionally specific requirements or use case specific requirements. The OC also is a space/scope for companyside assertions (e.g. customer service, quality, etc.
+
+informing PII principals about the consequences, if any, of withholding their consent in whole or in part; and
+
+informing on the ways to withdraw consent
+
+- whether replies to the questions are obligatory or voluntary, as well as the possible consequences of failure to reply,
+- the existence of the right of access to and the right to rectify the data  concerning him
+ 
+NOTE: Burying the privacy related notice obscurely in the other matters and having user accept it is a common privacy attack.
+
+## Audit Notes
+ is Consent is action based
+ is it an independent permission (i.e. only one policy  with same scopes of purpose)
+
+ ## Meaningful Policy Changes Requiring a New Consent Receipt
+ - Change in overview of the service
+ - change the PII Controller
+ - change PII items being collected
+ - change the purpose of use to something outside the scope
+ - change 3rd party- unless DS consented to scope of 3rd parties and this is within scope
+ - consent required if extend retention period or extend disposa date
+ - change matters related to disclosure, suspension of use, correction, deletion, suspension of provision or revoking of consent
+ - change the contact information for inquiry
