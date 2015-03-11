@@ -16,13 +16,13 @@ Supporting reference to ISTPA: Analysis of privacy principles:
 * Minister of Economy Office, Japan (2014) Guideline for the online notice and consent from  consumers, http://www.meti.go.jp/press/2014/10/20141017002/20141017002a.pdf for compliance with ISO 29100]  
 
 # Problem Described
-Currently there is a static and binary notice and consent infrastructure that is regulated and neither usable nor suitable for it intended purposes.  An individual is expected to perform beyond what is reasonable in the current context. They are expected to find and read policies, understand all of the information sharing relationships in context, manage each consent and personal information relationship with their associated identities with all of these organisations. In other words, each individual is expected to understand what information is being collected about them, how it will be used and for what purposes, with which types of entities their information will be shared. All of this is expected without having the ability to take a record and manage consent independently out of context.  Meanwhile in context people are expected to keep track of all active consent, when making new consent agreements.
+Currently there is a static and binary notice and consent infrastructure that is regulated and neither usable nor suitable for its intended purposes.  An individual is expected to perform beyond what is reasonable in the current context. They are expected to find and read policies, understand all of the information sharing relationships in context, and manage each consent and personal information relationship with their associated identities with all of these organisations. In other words, each individual is expected to understand what information is being collected about them, how it will be used and for what purposes, with which types of entities their information will be shared. All of this is expected without having the ability to take a record and manage consent independently out of context.  Meanwhile in context people are expected to keep track of all active consent, when making new consent agreements.
 
-Information sharing is dramatically increasing, the capacity for people to manage information sharing and identity based relationships needs also to increase.  A specification for a minimum core generically viable consent can address specific jurisdictional requirements and provided evidence toward compliance with ISO 29100.
+Information sharing is dramatically increasing so the capacity for people to manage information sharing and identity based relationships needs also to increase.  A specification for a minimum core generically viable consent can address specific jurisdictional requirements and provided evidence of compliance with ISO 29100 or other privacy frameworks.
 
-Individuals' capacities to manage their privacy is then increased as they are able to aggregate and manage consent & information sharing relationships with the consent receipt.  Organisations can use these receipts to streamline the consent experience.  Consent receipts also provide a channel for  organisations to advertise trust.
+Individuals' capacity to manage their privacy is  increased if they are able to aggregate and manage consent & information sharing relationships with consent receipts.  Organisations can use these receipts to standardize the consent experience.  Consent receipts also provide a channel for  organisations to advertise trust.
 
-With the core receipt specification addressing general, or regulatory, consent requirements the consent receipt can become a vehicle for trust networks, federations, trust marks, privacy icons, assurances, certifications and self asserted community and industry reputations.  (which is out of scope of the MVCR specification)
+The core receipt specification addresses general, or regulatory, consent requirements. More elaborate consent receipts can become a vehicle for trust networks, federations, trust marks, privacy icons, assurances, certifications and self asserted community and industry reputations. 
 
 # Background
 
@@ -85,7 +85,7 @@ The word “SHOULD” indicates a recommendation and does not impose an obligati
   a) A description of the types of personally identifiable information to which the consent applies.
 8. The payload CAN include the following information:
   a) the personal identifier used in the consent receipt
-  b) a collection of PII that is apart of the consent transaction
+  b) some or all of the personally identiable information to which the consent applies
 
 ### Consent Notice Fields and Descriptions (TBF v.07)
 
@@ -126,7 +126,7 @@ informing on the ways to withdraw consent
 
 - whether replies to the questions are obligatory or voluntary, as well as the possible consequences of failure to reply,
 - the existence of the right of access to and the right to rectify the data  concerning him
- 
+�
 NOTE: Burying the privacy related notice obscurely in the other matters and having user accept it is a common privacy attack.
 
 ## Audit Notes
